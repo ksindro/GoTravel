@@ -1,0 +1,216 @@
+   /*MEDIA QUERIE*/
+  /*Se utilizó este bloque de código media query para que mi diseño se pueda ver en todas las pantallas*/  
+  @media screen and (max-width: 100%) {
+    .grid_data {
+        grid-template-columns: 1fr;
+    }
+}
+
+.encabezado_titulo{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  color: rgb(104, 46, 8);
+  image-orientation: flip;
+  background-color: rgb(245, 233, 233);
+}
+.logo{
+image-orientation: from-image;
+}
+
+
+body { 
+    background: url(../images/brujula.jpg);
+    image-resolution: 100px;
+    }
+
+    main {
+
+        padding: 15px;
+        margin: 5px;
+    }
+    .historia{
+      border: 5px solid rgb(177, 96, 96);
+      margin: 5px;
+      padding: 15px;
+      background-color: thistle;
+    }
+
+.titulo_index{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: rgb(95, 2, 30);
+
+}
+main p{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(131, 31, 61);
+}
+
+/*Barra de navegacion*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(40, 196, 92);
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  /* color de fondo de barra de navegacion */
+  li a:hover {
+    background-color: rgb(108, 185, 125);
+  }
+
+
+  /*LOGIN*/
+
+  .form_login{
+    background: url(../images/pasaporte.jpg);
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+/*REGISTRO*/
+/*estilos para login y del registro*/
+
+.mainform{
+  display: grid;
+  background: url(../images/pasaporte2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  grid-column: 1 /span 2;
+  grid-row: 2;
+  padding: 30px;
+  justify-content: center;
+}
+
+.contenedorForm{
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.formulario{
+  background: rgba(70, 226, 91, 0.575);
+  margin: 10%;
+  padding: 10px;
+  color: white;
+}
+
+.input{
+  display: grid;
+  font: size 10;
+  width: 83%;
+  padding: 10px;
+  display: grid;
+  grid-gap: 15px;
+  line-height: 15px;
+  justify-content: center;
+}
+
+.input input{
+  padding: 7px;
+}
+
+.button{
+  margin-bottom: 15px;
+  background-color:  rgb(40, 196, 92);
+  border: 1px solid rgb(85, 209, 68);
+  padding: 10px;
+  display: grid;
+  grid-gap: 15px;
+  line-height: 15px;
+}
+
+.button:hover {
+  background-color: rgb(166, 238, 144);
+  color: white;
+  align-content: center;
+}
+
+
+
+/*TABLA DE PRODUCTOS*/
+.productosmenu_titulo{
+  text-align: center;
+  color: rgb(26, 121, 7);
+  margin-top: 50px;
+  background-color: rgb(245, 233, 233);
+}
+
+.tabla_productos
+  {
+    padding: 5px;
+    margin-top: 50px;
+    background-color: rgb(245, 233, 233);
+    text-align: left;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.tabla_productos tr td{
+  border: solid 10px  rgb(232, 235, 57);
+}
+
+.productosvip{
+  text-align: center;
+  color: rgb(204, 129, 32);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(245, 233, 233);
+  padding: 5px;
+      margin-top: 50px;
+}
+
+
+/*TABLA DE PRODUCTOS VIP*/
+.tabla_productos_vip{
+  text-align: center;
+  color: rgb(39, 44, 41);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(245, 233, 233);
+  padding: 10px;
+      margin-top: 10px;
+}
+
+.tabla_productos_vip tr td{
+  border: solid 5px  rgb(141, 236, 77);
+}
+
+
+
+/*Barra final*/
+footer{
+    font-family: Georgia, "Times New Roman",
+    Times, serif;
+    color: rgb(104, 46, 8);
+    text-align: center;
+    background-color: rgb(247, 222, 169);
+    margin-top: 50px;
+}
+
+
