@@ -65,17 +65,14 @@ body {
 } 
 
 
-/*Estilos del footer*/
-footer{
-    font-family: Georgia, "Times New Roman",
-    Times, serif;
-    color: rgb(22, 56, 209);
-    text-align: center;
-}
+/*Estilos textos*/
+
 td,th{
-    color: rgb(221, 225, 247);
+    color: rgb(2, 4, 15);
     font-family: Georgia, "Times New Roman",
     Times, serif;
+    font-weight: 200;
+    background-color: rgb(211, 175, 152);
 }
 
 
