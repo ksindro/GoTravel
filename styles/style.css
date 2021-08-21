@@ -153,58 +153,6 @@ ul {
 }
 
 
-
-/*TABLA DE PRODUCTOS*/
-.productosmenu_titulo{
-  text-align: center;
-  color: rgb(26, 121, 7);
-  margin-top: 50px;
-  background-color: rgb(245, 233, 233);
-}
-
-.tabla_productos
-  {
-    padding: 5px;
-    margin-top: 50px;
-    background-color: rgb(245, 233, 233);
-    text-align: left;
-    border-collapse: collapse;
-    width: 50%;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-
-.tabla_productos tr td{
-  border: solid 10px  rgb(232, 235, 57);
-}
-
-.productosvip{
-  text-align: center;
-  color: rgb(204, 129, 32);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(245, 233, 233);
-  padding: 5px;
-      margin-top: 50px;
-}
-
-
-/*TABLA DE PRODUCTOS VIP*/
-.tabla_productos_vip{
-  text-align: center;
-  color: rgb(39, 44, 41);
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: rgb(245, 233, 233);
-  padding: 10px;
-      margin-top: 10px;
-}
-
-.tabla_productos_vip tr td{
-  border: solid 5px  rgb(141, 236, 77);
-}
-
-
-
 /*Barra final o leyenda*/
 footer{
     font-family: Georgia, "Times New Roman",
