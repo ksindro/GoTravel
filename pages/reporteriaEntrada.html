@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../styles/etilos2.css">
+  <link rel="stylesheet" href="../styles/style.css">
+  
+
+    <title>Entradas</title>
+</head>
+<body>
+
+
+  <header class="header">
+    <h1 class="text-center">Movimientos de entrada</h1>
+    <img src="../images/logo.jpg" alt="Logo"  id="img"> 
+
+    <nav id="nav">
+        <a  target="_blank" href="reporteriaSalida.html">Ventas<img src="../images/ventas.png" alt="Ventas"></a>
+        <a  target="_blank" href="IngresoDeProductos.html">Catalogo<img src="../images/catalogo.jpg" alt=" Catalogo de productos"></a>
+    </nav>
+
+</header>
+<div class="container">
+<br>
+
+    <table class="table table-bordered table-striped" id="tabla">
+      <thead style="background-color: rgb(10, 80, 68); color: white;">
+          <tr>
+            <th>Fecha</th>
+            <th>Proveedor</th>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio Unidad</th>
+              <th>Sub total</th>                        
+          </tr>
+      </thead>
+      <tbody id="idTablaDetalle">
+         
+      </tbody>            
+
+  </table>  
+      <div>
+        <br>
+        <p>
+         <label id="totalOrden"></label>     
+        </p>
+      
+     </div>
+</div>
+     <footer>
+      <h3>
+          <p>Minnely Sindro <br> Carnet: 1590-15-14354</p>
+      </h3>
+  </footer> 
+     
+  
+  <script src="../JS/catalogo.js"></script>
+  <script>    
+   LlenarListaProductos();
+ </script>
+ <script src= "../JS/detalle.js"></script>
+ <script> 
+  cargarDatosDetalle();
+  LlenarTablaDetalle();
+ </script>
+ 
+ <script src = "../JS/proveedores.js"></script>
+  <script>LlenarListaProveedores();</script>
+
+     
+</body>
+</html>
